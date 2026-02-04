@@ -1,0 +1,14 @@
+# Ignore the Python virtual environment
+pyspark/
+venv/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore actual data files (we only want to save code to GitHub)
+*.parquet
+*.csv
+*.json
+
+# Ignore Python cache
+__pycache__/
